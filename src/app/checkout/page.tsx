@@ -16,7 +16,7 @@ interface IProduct {
 
 
 const Page = () => {
-    const [sanityData, setSanityData] = useState<IProduct[]>([]);
+    const [sanityData] = useState<IProduct[]>([]);
     const [cartItems, setCartItems] = useState<IProduct[]>([]);
 
 

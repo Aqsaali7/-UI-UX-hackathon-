@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { RiDeleteBinLine } from 'react-icons/ri';
 import Link from 'next/link';
